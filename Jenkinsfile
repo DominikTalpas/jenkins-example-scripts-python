@@ -9,8 +9,7 @@ pipeline {
     stage('hello') {
       steps {
         echo 'running hello automation'
-        sh 'python3 hello.py'
-        archiveArtifacts artifacts: 'dist/trainShedule.zip
+        sh 'python3 hello.py
       }
     }
   }
