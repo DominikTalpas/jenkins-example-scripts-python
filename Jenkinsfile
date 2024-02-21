@@ -9,7 +9,7 @@ pipeline {
     stage('hello') {
       steps {
         echo 'running hello automation'
-        sh 'python3 hello.py
+        sh 'python3 hello.py'
       }
     }
   }
